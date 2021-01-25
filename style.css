@@ -49,13 +49,13 @@ label .cardWrapper {
      opacity: 0;
 }
   .cardRandom::before {
-    content: ".cardstarot";
+    content: "shaynjay/cards/index/z/mycards";
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(https://github.com/shaynjay/cards/cardstarot);
+    background-image: url(https://github.com/shaynjay/cards/index/z/mycards);
     background-size: cover;
-    animation: randomCard 1000ms steps(77, end) infinite;
+    animation: randomCard 1000ms steps(24, end) infinite;
     animation-play-state: paused;
     transform: rotate(180deg);
 }
